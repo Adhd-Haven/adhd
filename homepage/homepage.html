@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADHD Haven</title>
+    <link rel="shortcut icon" type="image/jpg" href="img/logo.png"/>
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<style>
+    .city {display:none}
+</style>
+<body>
+    <div class="container">
+        <div style="text-align: left;">
+    
+            <a href="file:///C:/Users/aaron/OneDrive/Desktop/Adhd/startpage/startpage.html">
+                <img src="img/logo.png" style="width: 10%; height: 10%; margin-left: 2%; margin-top: 1%;">
+            </a>
+    
+            <h1 style="text-align: left; margin-left: 15%; margin-top: -7.5%; font-size: 300%; width: auto; ">ADHD  Haven</h1>
+        </div>
+    
+        <div class="w3-row" style="padding-left: 2.5%; padding-top: 4%;">
+          
+            <div class="w3-col" style="width:25%;">
+              <a href="file:///C:/Users/aaron/OneDrive/Desktop/Adhd/games/games.html">
+                  <img width="80%" height="40%" style="align-self: center;" src="img/gamesicon.png" alt="Games">
+              </a>
+            </div>
+    
+            <div class="w3-col" style="width:25%">
+                <a href="file:///C:/Users/aaron/OneDrive/Desktop/Adhd/blogs/blogs.html">
+                    <img width="80%" height="40%" style="align-self: center;" src="img/blogsicon.png" alt="Blogs">
+                </a>
+            </div>
+    
+            <div class="w3-col" style="width:25%">
+                <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black" 
+                style="background-image: url(img/useragreementicon.png); background-size: cover; height: 410px; width: 300px; ">
+                </button>
+            </div>
+            
+            <div class="w3-col" style="width:25%">
+                <a href="file:///C:/Users/aaron/OneDrive/Desktop/Adhd/mediaresources/mediaresources.html">
+                    <img width="80%" height="40%" style="align-self: center;" src="img/mediaresources.png" alt="Media Resource">
+                </a>
+            </div>  
+        </div>
+    </div>
+
+    <div style="text-align: end; margin-right: 5%; margin-top: 20%;">
+        <button style="background-image: url(img/home.png); margin-top: 1%; background-color: transparent; border: transparent;" onclick="location.href='C:/Users/aaron/OneDrive/Desktop/Adhd/homepage/homepage.html'" ></button>
+    </div>
+    
+        <div>
+            <div class="w3-container">
+    
+                <!-- <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black" 
+                style="background-image: url(img/useragreementicon.png); background-size: cover; height: 450.5px; width: 300px; margin-top: -32%; margin-left: 51.25%;">
+                </button> -->
+                
+                <div id="id01" class="w3-modal">
+                 <div class="w3-modal-content w3-card-4 w3-animate-zoom">
+                  <header class="w3-container w3-yellow"> 
+                   <span onclick="document.getElementById('id01').style.display='none'" 
+                   class="w3-button w3-yellow w3-xlarge w3-display-topright">&times;      	 
+                   </span>
+                   <h2 style="text-align: center;">USER AGREEMENT</h2>
+                  </header> 
+                   <p style="padding-left: 5%; padding-right: 4%; text-indent: 0%; margin-top: 2%; padding-bottom: 5%;">Privacy Policy</p>
+                   <p style="padding-left: 5%; padding-right: 4%; text-indent: 0%; margin-top: -5%; padding-bottom: 5%;">==============</p>
+                   <p style="padding-left: 5%; padding-right: 4%; text-indent: 0%; margin-top: -5%; padding-bottom: 5%;">Last updated: May 05, 2022</p>
+                   <p style="padding-left: 5%; padding-right: 4%; text-indent: 2%; margin-top: -5%; padding-bottom: 5%;">
+                        This Privacy Policy describes Our policies and procedures on the collection,
+                        use and disclosure of Your information when You use the Service and tells You
+                        about Your privacy rights and how the law protects You.
+                    </p>
+                    <p style="padding-left: 5%; padding-right: 4%; text-indent: 2%; margin-top: -5%; padding-bottom: 5%;">
+                        We use Your Personal  data to provide and improve the Service. By using the
+                        Service, You agree to the collection and use of information in accordance with
+                        this Privacy Policy. 
+                    </p>
+                    <p style="padding-left: 5%; padding-right: 4%; text-indent: 2%; margin-top: -5%; padding-bottom: 5%;">
+                        The security of Your Personal Data is important to Us, but remember that no
+                        method of transmission over the Internet, or method of electronic storage is
+                        100% secure. While We strive to use commercially acceptable means to protect
+                        Your Personal Data, We cannot guarantee its absolute security.
+                    </p>
+                    <p style="padding-left: 5%; padding-right: 4%; text-indent: 2%; margin-top: -5%; padding-bottom: 5%;">
+                        Our Service may contain links to other websites that are not operated by Us.
+                        If You click on a third party link, You will be directed to that third parties
+                        site. We strongly advise You to review the Privacy Policy of every site You
+                        visit.
+                    </p>
+                    <p style="padding-left: 5%; padding-right: 4%; text-indent: 2%; margin-top: -5%; padding-bottom: 5%;">
+                        We have no control over and assume no responsibility for the content, privacy
+                        policies or practices of any third party sites or services.
+                    </p>
+                    
+                    <form action="#" onsubmit="if(document.getElementById('agree').checked) {true;} else { alert('Please indicate that you have read and agree to the Terms and Conditions and Privacy Policy'); false; }">
+    
+                        <input style="margin-left: 10%; margin-bottom: 2%;" type="checkbox" name="checkbox" value="check" id="agree" /> I have read and agree to the Terms and Conditions and Privacy Policy
+                        <input type="submit" onclick="" name="submit" value="submit" />
+                        
+                        </form>
+                    
+                 </div>
+                </div>
+                
+                
+            </div>
+                
+        </div>
+     
+</body>
+</html>

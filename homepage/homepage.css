@@ -1,0 +1,58 @@
+h1 {
+    color: white;
+}
+body {
+    background-color:#203e6b;
+}
+button {
+    background-image: url('/homepage/img/gamesicon.png');
+    background-repeat: no-repeat;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 0px;
+  }
+
+  /*d2 edit ng background*/
+  .container{
+    position:absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height:100vh;
+    animation: animate 40s ease-in-out infinite;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.outer{
+    position: absolute;
+    left: 0%;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+
+
+@keyframes animate{
+    0%, 100%{
+        background-image: url(1.png);
+    }
+    25%{
+        background-image: url(2.png);
+    }
+   50%{
+        background-image: url(3.png);
+    }
+    75%{
+        background-image: url(4.png);
+    }
+}
