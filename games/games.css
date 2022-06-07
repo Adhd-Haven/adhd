@@ -1,0 +1,12 @@
+h1{
+    color: white;
+}
+body{
+    background-color:#203e6b;
+}
+button{
+    background-image: url("img/home.png");
+    background-size: cover;
+    height: 40px;
+    width: 12%;
+}
