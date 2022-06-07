@@ -1,0 +1,11 @@
+body{
+    background-color: black;
+}
+
+h4, h1, h6, p{
+    color: white;
+}
+
+h3 {
+    color: #132540;
+}
